@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #0c0c0c;/*topo da pagina*/
+    border-radius: 24px;
+    padding: 16px;
+}
+
+nav a{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #0a0a0a;/*fundo dos botoes*/
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #e0e40d;/*fundo quando coloca mouse*/
+    transition: 0.5s;
+}
+
+nav a:visited {color: green;}
+div {
+    background-color: #fffefe;/*fundo pagina principal e sobre*/
+}
+
+.sobre{
+    background-color: rgb(5, 7, 10);
+    color:rgb(200, 0, 0)
+}
+
+.sobre div{
+    background-color: rgb(241, 241, 238),
+}
+
+.principal,
+.principal div{
+    background-color: #2e2c2e;
+    font-size: 21px;
+    color: red;
+    padding-left: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.principal a{
+    color: white;
+    text-decoration: none;
+    background-color: #7c787a;
+    margin: 8px;
+    padding: 0 12px;
+    border-radius: 12px;
+}
+
+.principal a:hover{
+    background-color: #8ff020;
+    transition: 0.5s;
+}
+
+.img-perfil {
+    width: 125px;
+    border: 4px rgb(75, 70, 70) solid;
+    border-radius: 12px 4px;
+}
+
+.descricao{
+    color: #10a549;
+}
+
+.tecnologia{
+    color: white;
+}
